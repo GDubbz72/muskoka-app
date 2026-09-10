@@ -34,7 +34,7 @@ export const Hero = ({ onRegister }: HeroProps) => {
           <div className="flex flex-col gap-6 sm:flex-row sm:justify-between sm:items-end sm:gap-12 mt-auto">
             <div className="max-w-[980px] w-full">
               <Headline color="#fff" style={{ fontSize: 'clamp(44px, 10vw, 104px)', marginBottom: 6 }}>
-                Oakville…
+                Muskoka…
               </Headline>
               <Headline color="#fff" style={{ fontSize: 'clamp(44px, 10vw, 104px)', marginBottom: 6 }}>
                 Your New Commute
