@@ -34,12 +34,12 @@ export const OfficeAndContact = ({ onBookTour, onContact }: OfficeAndContactProp
         </Button>
       </div>
 
-      {/* Right: Mel Contact Card */}
+      {/* Right: Duncan Contact Card */}
       <div className="pt-2 lg:pt-0 lg:pl-12">
         <div className="grid grid-cols-1 lg:grid-cols-[180px_1fr] gap-7 lg:gap-12">
           {/* Left: Photo + Info (centered) */}
           <div className="flex flex-col items-center text-center">
-            {/* Mel's photo */}
+            {/* Duncan's photo */}
             <div className="relative w-[180px] h-[180px] rounded-full overflow-hidden bg-gray-200 flex-shrink-0 mb-4">
               <Image
                 src="/assets/imagery/duncan_crop.jpg"
@@ -80,7 +80,7 @@ export const OfficeAndContact = ({ onBookTour, onContact }: OfficeAndContactProp
               weight={500}
               style={{ marginBottom: 28 }}
             >
-              Want to bring your team to LAUFT Muskoka? Our location lead Mel has the
+              Want to bring your team to LAUFT Muskoka? Our location lead Duncan has the
               answers — pricing, walkthroughs, and team plans, on your timeline.
             </Body>
 
