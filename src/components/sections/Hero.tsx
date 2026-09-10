@@ -34,18 +34,19 @@ export const Hero = ({ onRegister }: HeroProps) => {
           <div className="flex flex-col gap-6 sm:flex-row sm:justify-between sm:items-end sm:gap-12 mt-auto">
             <div className="max-w-[980px] w-full">
               <Headline color="#fff" style={{ fontSize: 'clamp(44px, 10vw, 104px)', marginBottom: 6 }}>
-                Muskoka…
+                YOUR
               </Headline>
               <Headline color="#fff" style={{ fontSize: 'clamp(44px, 10vw, 104px)', marginBottom: 6 }}>
-                Your New Commute
+                BEST WORK.
               </Headline>
               <Headline color="#fff" style={{ fontSize: 'clamp(44px, 10vw, 104px)' }}>
-                <span>Starts </span>
                 <span className="relative inline-block px-4.5 pb-2">
                   <CircleAccent color="#00ABEA" stroke={5} />
-                  <span className="relative">Here</span>
+                  <span className="relative">AWAY</span>
                 </span>
-                <span>.</span>
+              </Headline>
+              <Headline color="#fff" style={{ fontSize: 'clamp(44px, 10vw, 104px)' }}>
+                FROM IT ALL.
               </Headline>
             </div>
             <div className="pb-2 flex-shrink-0">
