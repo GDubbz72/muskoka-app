@@ -15,8 +15,8 @@ const benefits = [
         <circle cx="6" cy="30" r="2.5" fill="#00ABEA" />
       </svg>
     ),
-    title: 'Skip the Commute',
-    body: 'Cut out the drive to the city. Book a desk in beautiful Muskoka and reclaim your time for what matters.',
+    title: 'Escape to Focus',
+    body: 'Trade cottage distractions for a dedicated desk. Get the quiet, the view, and the headspace to actually get things done.',
   },
   {
     icon: (
@@ -27,8 +27,8 @@ const benefits = [
         <circle cx="22" cy="26" r="2.5" fill="#00ABEA" />
       </svg>
     ),
-    title: 'Flexible Pricing',
-    body: 'Book by the hour, day, or month. No contracts, no memberships — just space when you need it.',
+    title: 'Flexible In Season or Out',
+    body: 'Book by the hour, day, or month — scale up for summer, scale down for winter. No contracts, no wasted space.',
   },
   {
     icon: (
@@ -39,8 +39,8 @@ const benefits = [
         <circle cx="22" cy="22" r="3" fill="#00ABEA" />
       </svg>
     ),
-    title: 'Lakeside Location',
-    body: 'Work surrounded by natural beauty. Muskoka\'s lakes, forests, and trails are your backdrop for inspiration.',
+    title: 'Reliable, Not Rustic',
+    body: 'Skip the spotty cottage Wi-Fi. Enjoy fast, dependable connectivity and boardroom-ready space whenever you need to look sharp.',
   },
 ];
 
