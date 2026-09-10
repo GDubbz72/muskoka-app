@@ -2,7 +2,7 @@
 
 import { Button, SectionHeading, Body } from '@/components/primitives';
 
-interface WhyOakvilleProps {
+interface WhyMuskokaProps {
   onRegister: () => void;
 }
 
@@ -16,7 +16,7 @@ const benefits = [
       </svg>
     ),
     title: 'Skip the Commute',
-    body: 'Cut out the morning crawl on the QEW. Book a desk minutes from home and reclaim two hours of your day.',
+    body: 'Cut out the drive to the city. Book a desk in beautiful Muskoka and reclaim your time for what matters.',
   },
   {
     icon: (
@@ -39,12 +39,12 @@ const benefits = [
         <circle cx="22" cy="22" r="3" fill="#00ABEA" />
       </svg>
     ),
-    title: 'Amenity Rich Area',
-    body: 'Surrounded by retail, dining, and parks. Step out for lunch or a meeting and right back to focus.',
+    title: 'Lakeside Location',
+    body: 'Work surrounded by natural beauty. Muskoka\'s lakes, forests, and trails are your backdrop for inspiration.',
   },
 ];
 
-export const WhyOakville = ({ onRegister }: WhyOakvilleProps) => {
+export const WhyMuskoka = ({ onRegister }: WhyMuskokaProps) => {
   return (
     <div className="px-4 py-12 lg:py-16">
       <SectionHeading
@@ -53,7 +53,7 @@ export const WhyOakville = ({ onRegister }: WhyOakvilleProps) => {
         weight={700}
         style={{ marginBottom: 56 }}
       >
-        Why work in Oakville?
+        Why work in Muskoka?
       </SectionHeading>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 lg:gap-14 max-w-4xl mx-auto mb-14">
