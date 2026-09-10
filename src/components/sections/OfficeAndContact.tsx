@@ -42,8 +42,8 @@ export const OfficeAndContact = ({ onBookTour, onContact }: OfficeAndContactProp
             {/* Mel's photo */}
             <div className="relative w-[180px] h-[180px] rounded-full overflow-hidden bg-gray-200 flex-shrink-0 mb-4">
               <Image
-                src="/assets/imagery/mel_schembri.jpg"
-                alt="Mel Schembri - Location Lead"
+                src="/assets/imagery/duncan_crop.jpg"
+                alt="Duncan O'Brian - Location Lead"
                 fill
                 className="object-cover"
               />
@@ -52,16 +52,16 @@ export const OfficeAndContact = ({ onBookTour, onContact }: OfficeAndContactProp
             {/* Name and title */}
             <div className="mb-4">
               <div className="font-lato font-black text-base text-[var(--lauft-darkest-grey)] uppercase tracking-wide">
-                Mel Schembri
+                Duncan O'Brian
               </div>
               <div className="font-lato font-semibold text-xs text-[var(--lauft-mid-grey)] uppercase tracking-widest mt-0.5">
-                Brand Lead, Oakville
+                Location Lead, Muskoka
               </div>
             </div>
 
             {/* LinkedIn button */}
             <a
-              href="https://ca.linkedin.com/in/mel-schembri-b727a625"
+              href="https://ca.linkedin.com/in/duncan"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block"
@@ -80,7 +80,7 @@ export const OfficeAndContact = ({ onBookTour, onContact }: OfficeAndContactProp
               weight={500}
               style={{ marginBottom: 28 }}
             >
-              Want to bring your team to LAUFT Oakville? Our location lead Mel has the
+              Want to bring your team to LAUFT Muskoka? Our location lead Mel has the
               answers — pricing, walkthroughs, and team plans, on your timeline.
             </Body>
 
