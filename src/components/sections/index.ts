@@ -4,6 +4,7 @@ export { OfficeAndContact } from './OfficeAndContact';
 export { LocationMap } from './LocationMap';
 export { ClientLogos } from './ClientLogos';
 export { WhyMuskoka } from './WhyMuskoka';
+export { AssetGallery } from './AssetGallery';
 export { VirtualTour } from './VirtualTour';
 export { Roadmap } from './Roadmap';
 export { FinalCTA } from './FinalCTA';

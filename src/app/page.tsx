@@ -5,6 +5,7 @@ import {
   Navbar,
   Hero,
   OfficeAndContact,
+  AssetGallery,
   LocationMap,
   ClientLogos,
   WhyMuskoka,
@@ -50,6 +51,7 @@ export default function Home() {
         <div className="animate-fadeUp animation-delay-140">
           <OfficeAndContact onBookTour={openTourModal} onContact={scrollToRegister} />
         </div>
+        <AssetGallery />
         <LocationMap />
         <ClientLogos />
         <WhyMuskoka onRegister={openPreRegisterModal} />
